@@ -4,6 +4,17 @@ Bridge service to faciliate Ethereum token transfers.
 
 A hosted instance is available on Heroku: [https://token-tx.herokuapp.com](https://token-tx.herokuapp.com/).
 
+## Flow
+
+![Transaction Flow](https://raw.githubusercontent.com/kern/token-tx/master/resources/flow.png)
+
+1. Transaction Sender creates a new session with its public key
+2. Bridge Server returns the URL for the session (`data.href`)
+3. Transaction Sender sends the session URL to the intended Transaction Receiver (such as via SMS)
+4. Transaction Receiver updates the session with its wallet address
+5. Transaction Sender polls the session for updates to the wallet address
+6. Transaction Sender receives the Transaction Receiver’s wallet address and signs a transaction to send the token
+
 ## API
 
 ### POST `/sessions`
