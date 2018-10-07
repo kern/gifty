@@ -9,7 +9,8 @@
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
     "watch-node": "nodemon --exec \"./scripts/wait-for.sh localhost:27017 -- node dist/index.js\"",
-    "mongodb": "docker-compose up mongodb"
+    "mongodb": "docker-compose up mongodb",
+    "postinstall": "npm run build-ts"
   },
   "repository": {
     "type": "git",
