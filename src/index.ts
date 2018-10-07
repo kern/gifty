@@ -68,6 +68,7 @@ app.use(
 );
 
 app.on("error", (err, ctx) => {
+  console.error(err);
   ctx.body = { error: err.toString() };
 });
 
