@@ -68,7 +68,7 @@ app.use(
 );
 
 app.on("error", (err, ctx) => {
-  console.error(err);
+  console.error(err); // tslint:disable-line no-console
   ctx.body = { error: err.toString() };
 });
 

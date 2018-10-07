@@ -21,6 +21,9 @@
   "bugs": {
     "url": "https://github.com/kern/token-tx/issues"
   },
+  "engines": {
+    "node": ">= 10.x.x"
+  },
   "homepage": "https://github.com/kern/token-tx#readme",
   "dependencies": {
     "koa": "^2.5.3",
