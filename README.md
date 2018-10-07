@@ -78,6 +78,6 @@ $ yarn watch
 
 The development server should now be listening on 
 
-## License
+## License &amp; Acknowledgements
 
-Apache 2.0
+Apache 2.0. Written by [Alex Kern](https://github.com/kern) and [Andrew Gold](https://github.com/AndrewGold) at [ETHSanFrancisco 2018](https://ethsanfrancisco.com).
