@@ -2,7 +2,7 @@
 
 Bridge service to faciliate Ethereum token transfers.
 
-A hosted instance is available on Heroku: [https://token-tx.herokapp.com](https://token-tx.herokapp.com).
+A hosted instance is available on Heroku: [https://token-tx.herokuapp.com](https://token-tx.herokuapp.com/).
 
 ## API
 
