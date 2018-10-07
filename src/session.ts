@@ -3,6 +3,7 @@
 import { Context } from "koa";
 import mongoose from "mongoose";
 import { InstanceType, ModelType, prop, Typegoose } from "typegoose";
+import { URL } from "url";
 import uuidv4 from "uuid/v4"; // tslint:disable-line
 
 mongoose.connect(
