@@ -2,7 +2,7 @@
 
 Send NFTs via a URL/SMS (API & bridge service)
 
-A hosted instance is available on Heroku: [https://gifty.herokuapp.com](https://gifty.herokuapp.com/).
+A hosted instance is available on Heroku: [https://token-tx.herokuapp.com](https://token-tx.herokuapp.com/).
 
 ## Flow
 
