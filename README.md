@@ -1,12 +1,12 @@
-# token-tx
+# :gift: gifty
 
-Bridge service to faciliate Ethereum token transfers.
+Send NFTs via a URL/SMS (API & bridge service)
 
-A hosted instance is available on Heroku: [https://token-tx.herokuapp.com](https://token-tx.herokuapp.com/).
+A hosted instance is available on Heroku: [https://gifty.herokuapp.com](https://gifty.herokuapp.com/).
 
 ## Flow
 
-![Transaction Flow](https://raw.githubusercontent.com/kern/token-tx/master/resources/flow.png)
+![Transaction Flow](https://raw.githubusercontent.com/kern/gifty/master/resources/flow.png)
 
 1. Transaction Sender creates a new session with its public key
 2. Bridge Server returns the URL for the session (`data.href`)

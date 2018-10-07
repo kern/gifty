@@ -1,5 +1,5 @@
 {
-  "name": "token-tx",
+  "name": "gifty",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kern/token-tx.git"
+    "url": "git+https://github.com/kern/gifty.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/kern/token-tx/issues"
+    "url": "https://github.com/kern/gifty/issues"
   },
   "engines": {
     "node": ">= 10.x.x"
   },
-  "homepage": "https://github.com/kern/token-tx#readme",
+  "homepage": "https://github.com/kern/gifty#readme",
   "dependencies": {
     "koa": "^2.5.3",
     "koa-bodyparser": "^4.2.1",
