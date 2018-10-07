@@ -60,7 +60,7 @@ A token transfer session.
 ```json
 {
   "data": {
-    _id: "abcdefghijklm789",
+    "_id": "abcdefghijklm789",
     "address": null,
     "href": "https://.../sessions/abcdefghijklm789",
     "publicKey": "ABCDEF..."
