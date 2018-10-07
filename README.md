@@ -13,7 +13,7 @@ Creates a new token transaction session.
 #### Parameters
 
 |Name|Type|Description|
-|-|-|
+|---|---|---|
 |`publicKey`|string *(optional)*|The public key to use for encrypting the receiver address|
 
 #### Response
@@ -35,7 +35,7 @@ Updates the receiver address of a token transaction session.
 #### Parameters
 
 |Name|Type|Description|
-|-|-|
+|---|---|---|
 |`address`|string *(required)*|The new receiver address to associate with the session|
 
 ### Session Object
@@ -45,7 +45,7 @@ A transfer session.
 #### Fields
 
 |Name|Type|Description|
-|-|-|
+|---|---|---|
 |`_id`|string|The session identifier|
 |`address`|string or null|The current receiver address associated with the session|
 |`href`|string|The canonical URL for the session|
