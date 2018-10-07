@@ -5,7 +5,10 @@ import mongoose from "mongoose";
 import { InstanceType, ModelType, prop, Typegoose } from "typegoose";
 import uuidv4 from "uuid/v4"; // tslint:disable-line
 
-mongoose.connect(process.env.MONGODB_URL || "mongodb://localhost/test");
+mongoose.connect(
+  process.env.MONGODB_URL || "mongodb://localhost/test",
+  { useNewUrlParser: true }
+);
 
 export class Session extends Typegoose {
   @prop()
