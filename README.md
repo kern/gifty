@@ -38,9 +38,13 @@ Updates the receiver address of a token transaction session.
 |---|---|---|
 |`address`|string *(required)*|The new receiver address to associate with the session|
 
+#### Response
+
+A [Session](#session-object) object.
+
 ### Session Object
 
-A transfer session.
+A token transfer session.
 
 #### Fields
 
