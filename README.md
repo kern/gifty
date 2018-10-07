@@ -8,15 +8,61 @@ A hosted instance is available on Heroku: [https://token-tx.herokuapp.com](https
 
 ### POST `/sessions`
 
-TODO
+Creates a new token transaction session.
+
+#### Parameters
+
+|Name|Type|Description|
+|-|-|
+|`publicKey`|string *(optional)*|The public key to use for encrypting the receiver address|
+
+#### Response
+
+A [Session](#session-object) object.
 
 ### GET `/sessions/:session_id`
 
-TODO
+Returns the current state of a token transaction session.
+
+#### Response
+
+A [Session](#session-object) object.
 
 ### POST `/sessions/:session_id`
 
-TODO
+Updates the receiver address of a token transaction session.
+
+#### Parameters
+
+|Name|Type|Description|
+|-|-|
+|`address`|string *(required)*|The new receiver address to associate with the session|
+
+### Session Object
+
+A transfer session.
+
+#### Fields
+
+|Name|Type|Description|
+|-|-|
+|`_id`|string|The session identifier|
+|`address`|string or null|The current receiver address associated with the session|
+|`href`|string|The canonical URL for the session|
+|`publicKey`|string or null|The public key to use for encrypting the receiver address|
+
+#### Example
+
+```json
+{
+  "data": {
+    _id: "abcdefghijklm789",
+    "address": null,
+    "href": "https://.../sessions/abcdefghijklm789",
+    "publicKey": "ABCDEF..."
+  }
+}
+```
 
 ## Development
 
